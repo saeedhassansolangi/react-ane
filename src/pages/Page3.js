@@ -21,7 +21,13 @@ export const Page3 = function ({ page }) {
       <form action="" onSubmit={handleFormSearch}>
         <div className="form-group">
           <label htmlFor="doSomething"></label>
-          <input type="search" name="doSomething" id="doSomething" required />
+          <input
+            type="search"
+            name="doSomething"
+            id="doSomething"
+            required
+            placeholder="Reason to Visit"
+          />
         </div>
 
         <button

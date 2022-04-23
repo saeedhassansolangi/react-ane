@@ -49,8 +49,32 @@ export const Home = function ({ page }) {
               </p>
             </div>
 
+            <div className="reason-to-visit">
+              <div className="form-group">
+                <label htmlFor="reason">Reason For Visit</label>
+                <input
+                  type="reason"
+                  name="reason"
+                  id="reason"
+                  placeholder="Enter your reason..."
+                />
+              </div>
+
+              <div className="form-group">
+                <label htmlFor="serial">Select Serial</label>
+
+                <select name="" id="">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+            </div>
+
             <div className="form-group">
-              <label htmlFor="country">Country</label>
+              <label htmlFor="country">Location</label>
               <input
                 type="text"
                 name="country"

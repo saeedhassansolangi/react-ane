@@ -26,7 +26,7 @@ body {
   color: #282828;
   background-color: #f2f2f2;
   display: inline;
-  padding:10px;
+  padding: 10px;
   border-radius: 10px;
 }
 
@@ -40,14 +40,15 @@ body {
 .home-page .form-group,
 .page3 .form-group {
   text-align: center;
-  width: 50%;
-  margin: 0 auto;
+  width: 90%;
   padding: 10px;
 }
 
 .page2-page form select,
 .home-page form input,
-.page3 form input {
+.page3 form input,
+.home-page textarea,
+.home-page select {
   padding: 10px;
   border-radius: 20px;
   border: 2px solid blue;
@@ -82,4 +83,16 @@ body {
   color: dodgerblue;
   font-size: 25px;
   text-shadow: 5px 5px 20px dodgerblue;
+}
+
+.reason-to-visit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.home-page textarea,
+.home-page select {
+  margin: 5px;
 }
