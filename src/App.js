@@ -8,16 +8,16 @@ import { Result } from './pages/Result';
 
 function App() {
   return (
-    <HashRouter>
-      <div className="App">
+    <div className="App">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home page="Home" />} />
           <Route path="page2" element={<Page2 page={' 2'} />} />
           <Route path="page3" element={<Page3 page={'Page 3'} />} />
           <Route path="result" element={<Result page={'Result'} />} />
         </Routes>
-      </div>
-    </HashRouter>
+      </HashRouter>
+    </div>
   );
 }
 
