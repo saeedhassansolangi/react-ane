@@ -164,7 +164,7 @@ export const Home = function ({ page }) {
           </form>
         </>
       ) : (
-        navigator('/page2')
+        navigate('/page2')
       )}
     </div>
   );
