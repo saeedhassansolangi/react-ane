@@ -60,9 +60,9 @@ export const Home = function ({ page }) {
         return;
       }
 
-      alert(JSON.stringify(formValues));
+      // alert(JSON.stringify(formValues));
 
-      navigate('/page3');
+      navigate('/3');
     } else {
       setEmailErrorMsg('Please enter your email address');
     }
@@ -164,7 +164,7 @@ export const Home = function ({ page }) {
           </form>
         </>
       ) : (
-        navigate('/page2')
+        navigate('/2')
       )}
     </div>
   );
