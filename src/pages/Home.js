@@ -98,6 +98,16 @@ export const Home = function ({ page }) {
               </p>
             </div>
 
+            <div className="form-group">
+              <label htmlFor="location">Location</label>
+              <input
+                type="text"
+                name="location"
+                id="location"
+                value={country}
+              />
+            </div>
+
             <div className="serial-numbers">
               <div className="serials">
                 <h3>Serial Numbers </h3>

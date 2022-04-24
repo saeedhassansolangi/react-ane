@@ -159,3 +159,19 @@ body {
   cursor: pointer;
   background-color: white;
 }
+
+.home-page input#location {
+  border: #282828 solid 2px;
+}
+
+.result-page div.navlink {
+  margin: 40px;
+  background-color: gainsboro;
+  padding: 10px;
+}
+
+.result-page div.navlink a {
+  text-align: center;
+  color: #282828 !important;
+  font-weight: bolder;
+}
