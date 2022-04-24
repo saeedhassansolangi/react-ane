@@ -96,3 +96,66 @@ body {
 .home-page select {
   margin: 5px;
 }
+
+.serial-number {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.serial-number .form-group {
+  padding: 10px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.serial-number .form-group input {
+  width: 90%;
+}
+
+.serial-number button {
+  font-size: 20px;
+  color: rgb(201, 31, 31);
+  padding: 5px 30px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: white;
+  border: 2px solid red;
+}
+
+.serial-number .form-group {
+  margin: 0px;
+}
+
+.serial-number button:hover {
+  color: blue;
+  border: 2px solid blue;
+}
+
+.serials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 99%;
+  padding: 0px 5px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-bottom: 1px solid #333;
+}
+
+.serials h3 {
+  font-size: 20px;
+}
+
+.serials button {
+  font-size: 20px;
+  padding: 5px 20px;
+  border: 2px solid green;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: white;
+}
